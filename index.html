@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            margin: 10px; /* Margin for spacing */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Aryan Songira</h1>
+            <h2>Software Engineer</h2>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                    Passionate software engineer with 3 years of experience in building robust and scalable applications, particularly in cybersecurity. I specialize in writing clean, efficient code in Golang and have expertise in designing microservices that handle high volumes of data. My experience extends to cloud-based infrastructure, using tools like OpenTelemetry, Prometheus, and Grafana to monitor performance and scale solutions effectively. I'm continuously improving my problem-solving skills and take pride in creating reliable software. I'm always excited to tackle complex challenges and evolve in the tech space.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2021 – Present">
+                <h3>SentinelOne</h3>
+                <h4>Software Engineer</h4>
+                <ul>
+                    <li>Designed microservices to protect users from compromised credentials, scalable to 100k users.</li>
+                    <li>Built a rate-limiting service to manage incoming traffic bursts, ensuring smooth system performance.</li>
+                    <li>Enhanced raw event data with correlation, allowlisting, and context for accurate threat detection.</li>
+                    <li>Developed Duo and PingIdentity security features for privileged command approval and risk-based access denial.</li>
+                    <li>Created IoT and SCADA decoy containers for deception-based security.</li>
+                    <li>Collected system metrics to detect anomalies and optimize performance.</li>
+                    <li>Automated SCA and SAST, improving security and development efficiency.</li>
+                    <li>Tech Stack: Go, Python, C++, AWS.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Institute of Engineering and Technology</h3>
+            <span class="education-date">July 2017 - July 2021</span>
+            <h4>Bachelor of Engineering</h4>
+            <ul>
+                <li>Courses: Computer Networks, Operating Systems, Data Structures and Algorithms, Machine Learning,
+                Database Management System</li>
+                <li>Data Structures and Algorithms using Python- NPTEL : Achieved Elite Type Certificate and Gold Medal, ranking
+                among the top 1% of the course with a score of 93%.</li>
+                <li>Machine Learning- Stanford Online : Learned the core fundamentals of Machine Learning</li>
+                <li>Programming in C++- NPTEL : Elite type Certificate (Score: 79%)</li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <h3>Parking Classification</h3>
+                    <p><a href="https://github.com/aryan1910/ParkingClassification" target="_blank">https://github.com/aryan1910/ParkingClassification</a></p>
+                    <p>
+                        <li>Developed a machine learning model to classify whether a car is parked within a designated parking space.</li>
+                        <li>Used 3D Convolutional Neural Networks (3D CNN) and CNN-RNN models to analyze video data or image sequences.</li>
+                        <li>Increased dataset size through augmentation to improve model robustness.</li>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Go</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Machine Learning</li>
+            <li>AWS</li>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>Kafka</li>
+            <li>Redis</li>
+            <li>Elasticsearch</li>
+            <li>MySQL</li>
+            <li>Lambda</li>
+            <li>Grafana</li>
+            <li>Vim</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+     
+    <footer style="text-align: center; padding: 20px;">
+        <p>Connect with me:</p>
+        <a href="https://github.com/your-github" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" style="margin-left: 10px;">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="LinkedIn">
+        </a>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
